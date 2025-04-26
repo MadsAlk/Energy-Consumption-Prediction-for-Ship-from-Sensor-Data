@@ -3,7 +3,6 @@
 ## Project Overview
 This project focuses on developing a predictive model to estimate the energy consumption of the MS Smyril, a Danish roll-on/roll-off passenger ship, using sensor data collected over two months in 2010. The dataset includes over 1.6 million records from various sensors such as Doppler speed logs, GPS, gyrocompass, and rudder angles. The goal is to optimize fuel usage and improve efficiency in maritime transportation by providing accurate energy consumption predictions.
 
-## Key Features
 
 ### Data Processing:
 - Energy consumption (EC) was calculated using fuel density and volume flow rate:
@@ -24,6 +23,4 @@ EC = fuelDensity * fuelVolumeFlowRate
 - Random Forest and SVR outperformed Ridge Regression, demonstrating the importance of nonlinear models for this problem.
 - Feature importance analysis revealed that starboard pitch and longitudinal water speed were the most influential predictors of energy consumption.
 
-## Conclusion
-This project successfully leveraged sensor data to predict ship energy consumption, with Random Forest and SVR emerging as the top-performing models. The results underscore the potential of machine learning to optimize fuel efficiency in maritime operations.
 
